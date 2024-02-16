@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera{
+    height: 80px;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+}
+
+.cabecera img{
+    height: 80px;
+    margin-left: 80px;
+}
+
+#nombreempresa {
+    text-align:center;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.navmenu{
+    display: flex;
+    list-style: none;
+    margin-right: 0;
+}
+
+.itemnavmenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 50px;
+    width: max-content;
+    line-height: 100px;
+}
+
+.itemnavmenu a:hover{
+    background-color: yellow;
+    color:red;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.navtoggle{
+    display: none;
+    color:yellow;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+}
+
+@media(max-width: 1110px){
+
+    #nombreempresa {
+        display: none;
+    }
+
+    .navmenu{
+       flex-direction: column; 
+       align-items:end;
+       margin-right: 20px;
+       background-color: black;
+       position: fixed;
+       transition: 0.3s;
+       top: 80px;
+       width: 100%;
+       padding: 20px 0;
+
+       height: calc(100%-80px);
+       overflow-y: auto;
+       left: 100%;
+
+    }
+
+    .itemnavmenu a{
+        color: yellow;
+    }
+
+
+    .navtoggle{
+        display: block;
+    }
+
+    .navmenu_activacion{
+        left: 0;
+    }
+    
+    
+
+}
+
+.primerseccion{
+    height: 600px;
+    background: url(REPO\ IMG/torreselect.jpg)no-repeat center;
+    background-size: cover;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.primerseccion h1{
+    text-align: center;
+    line-height: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: yellow;
+    font-weight: lighter;
+}
+
+.primerseccion p{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.primerseccion a{
+    text-decoration: none;
+    line-height: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: yellow;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.primerseccion a:hover{
+transition: 0.5s;
+font-size: 60px;
+}
+
+
+.footercontenedor{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajafooter1{
+   padding-top: 25px; 
+   padding-left: 50px;
+}
+
+.cajafooter1 h1{
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.contenedordirectorio{
+    padding-top: 25px;
+}
+
+.contenedordirectorio ul{
+    list-style: none;
+}
+
+.contenedordirectorio a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.cajafooter1 a:hover{
+    font-size: 30px;
+}
+
+.derechos{
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.derechos h4{
+    color: white;
+    padding-top: 180px;
+}
