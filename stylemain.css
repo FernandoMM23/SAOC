@@ -182,9 +182,11 @@ font-size: 60px;
 }
 
 .derechos{
-    line-height: 350px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .derechos h4{
     color: white;
+    padding-top: 180px;
 }
