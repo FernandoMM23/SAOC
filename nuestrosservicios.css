@@ -1,0 +1,115 @@
+/*cuerpo de la pagina servicios*/
+.bodyserv{
+    text-align: center;
+    background-color: aqua;
+    border-bottom: 2px solid white;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bodyserv #nompaginans{
+    color: black;
+    padding-bottom: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+}
+
+/*dentro de contenedor de todos los servicios*/
+.contenedortodoslosservicios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+/*recuadro del primer contenedor*/
+.serv1{
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.serv1 h1{
+    color:black
+}
+
+/*recuadro del segundo contenedor*/
+.serv2{
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.serv2 h1{
+    color: black
+}
+.serv2 ul{
+    text-decoration: underline;
+    list-style: none;
+    justify-content: center;
+}
+/*recuadro del tercer contenedor*/
+.serv3{
+    border-radius: 10px;
+    background-color: yellow;
+}
+.serv3 h1{
+    color: black;
+}
+
+.serv3 ul{
+    list-style: none;
+    text-decoration:underline;
+   
+}
+
+/* recuadro del cuarto contenedor*/
+.serv4{
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+}
+
+.serv4 ul{
+    list-style: none;
+    text-decoration:underline;
+
+}
+
+/*recuadro del quinto contenedor*/
+.serv5{
+  border-radius: 10px;
+  background-color: red;
+  color: white;  
+}
+
+/*recuadro del sexto contenedor*/
+.serv6{
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.serv6 ul{
+    list-style: none;
+}
+
+.serv6 ul li{
+    text-decoration: underline;
+}
+
+
+/*recuadro del septimo contenedor*/
+
+.serv7{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+/*Recuadro del 8ctavo contenedor*/
+.serv8{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
