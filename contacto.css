@@ -1,0 +1,43 @@
+
+.encabezadodepagina h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+}
+
+.encabezadodepagina p{
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+
+.contenedorbody1{
+    background-color:beige;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.primercontacto{
+display: flex;
+}
+
+.primercontacto img{
+    height: 100px;
+}
+
+.primercontacto div{
+    background-color:black;
+    border-style: dotted;
+    border-color: yellow;
+    border-radius: 15px;
+    height:min-content;
+    margin-top: 50px;
+    color: white;
+
+}   
+.primercontacto div p{
+    display: block;
+}
