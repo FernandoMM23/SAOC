@@ -5,7 +5,7 @@
 
 .cabecera{
     height: 80px;
-    background-color: black;
+    background-color: #202020;
     width: 100%;
     top: 0;
     left: 0;
@@ -47,7 +47,7 @@
 
 .itemnavmenu a:hover{
     background-color: yellow;
-    color:red;
+    color:black;
     border-radius: 5px;
     transition: 0.5s;
 }
@@ -102,9 +102,12 @@
 
 }
 
+
+/*comienza primer seccion*/
+
 .primerseccion{
     height: 600px;
-    background: url(REPO\ IMG/torreselect.jpg)no-repeat center;
+    background: url(REPO\ IMG/paneles.jpg)no-repeat center;
     background-size: cover;
     width: 100%;
     align-content: center;
@@ -116,12 +119,12 @@
     line-height: 200px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 80px;
-    color: yellow;
+    color: black;
     font-weight: lighter;
 }
 
 .primerseccion p{
-    color: white;
+    color: black;
     font-family:'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
@@ -144,10 +147,47 @@ transition: 0.5s;
 font-size: 60px;
 }
 
+/*Comienza segunda seccion*/
+.segundaseccion{
+    background: linear-gradient(white,#202020);
+    text-align: center;
+}
+.segundaseccion a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: lighter;
+    color: black;
+}
+#galery1{
+    align-items: center;
+    display: flex;
+    height: 550px;
+}
+
+#galery1 img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 20px;
+}
+
+#galery1 img:hover{
+    cursor:crosshair;
+    width: 300px;
+    max-height:min-content;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+/*footer*/
 
 .footercontenedor{
     height: 200px;
-    background-color: black;
+    background-color: #202020;
     display: flex;
     justify-content: space-between;
 }
